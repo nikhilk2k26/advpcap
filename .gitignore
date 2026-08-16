@@ -1,0 +1,42 @@
+```
+# Build artifacts
+build/
+cmake-build-*/
+Makefile
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+.externalNativeBuild/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Test coverage
+coverage/
+*.gcda
+*.gcno
+
+# Environment
+.env
+.env.local
+.env.*
+```
